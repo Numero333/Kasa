@@ -6,7 +6,7 @@ export const Navbar = () => {
             <Link to='/'>Acceuil</Link>
             <Link to='/apartement'>Appartement</Link>
             <Link to='/about'>About</Link>
-            <Link to='/error'>Error_dev</Link>
+            <Link to='*'>Error_dev</Link>
         </nav>
     )
 }
