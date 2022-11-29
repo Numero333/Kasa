@@ -1,3 +1,3 @@
 export const Apartement = () => {
-    return <div>Apartement Page</div>
+    return <div>Page des logements</div>
 }
