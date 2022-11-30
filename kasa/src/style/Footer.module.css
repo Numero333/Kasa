@@ -1,0 +1,18 @@
+.logo {
+  filter: brightness(100);
+  width: 80px;
+  margin-top: 20px;
+}
+
+.footer {
+    position: fixed;
+    background-color: black;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    margin-left: -40px;
+}
+
+.license {
+    color: white;
+}
