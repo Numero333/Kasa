@@ -1,10 +1,10 @@
-import { Navbar } from './components/Navbar';
+import { Header } from './components/Navbar';
 import { Router } from './components/Router';
 
 function App() {
   return (
     <>
-    <Navbar />
+    <Header />
     <Router />
     </>
   )
