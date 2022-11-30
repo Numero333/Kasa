@@ -4,20 +4,20 @@ import logo from "../assets/images/logo.svg"
 
 export const Header = () => {
   return (
-    <div className={styles.wrapper}>
+    <header className={styles.wrapper}>
       <a href="/">
-        <img src={logo} alt="Logo Kasa"></img>
+        <img className={styles.logo} src={logo} alt="Logo Kasa"></img>
       </a>
       <nav style={styles.nav}>
         <ul>
-          <li>
+          <li className={styles.about}>
             <Link to="/">Acceuil</Link>
           </li>
-          <li>
+          <li className={styles.home}>
             <Link to="/about">About</Link>
           </li>
         </ul>
       </nav>
-    </div>
+    </header>
   );
 };
