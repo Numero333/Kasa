@@ -1,0 +1,21 @@
+.bannerWrapper {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.bannerImage {
+ object-fit: cover;
+ border-radius: 25px;
+ width: 100%;
+ filter: brightness(75%);
+}
+
+.bannerText {
+ position: absolute;
+ color: white;
+ font-size: 24px;
+ font-weight: 400;
+}
+

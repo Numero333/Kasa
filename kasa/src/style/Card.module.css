@@ -1,0 +1,22 @@
+.cardWrapper {
+    display: flex;
+    position: relative;
+    background-color: #F6F6F6;
+    border-radius: 25px;
+    align-items: flex-end;
+}
+
+.cardImage {
+    height: 340px;
+    width: 340px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.cardText {
+    position: absolute;
+    justify-content: center;
+    width: 20%;
+    margin-left: 20px;
+    color: white;
+}

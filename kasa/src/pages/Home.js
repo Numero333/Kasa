@@ -1,3 +1,6 @@
+import { Banner } from '../components/Banner';
+import { Card } from '../components/Card';
+
 export const Home = () => {
-    return <div>Page d'acceuil</div>
+    return <> <Banner /> <Card /> </>;
 }
