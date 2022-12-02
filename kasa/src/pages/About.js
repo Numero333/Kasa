@@ -1,3 +1,9 @@
+import { Collapse } from "../components/Collapse";
+
 export const About = () => {
-  return <div>Page About</div>;
+  return (
+    <div>
+      <Collapse title="Le Titre" content="Superblabla" />
+    </div>
+  );
 };

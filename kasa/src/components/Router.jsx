@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom";
-import { About } from '../pages/About';
-import { Apartement } from '../pages/Apartment';
-import { Error } from '../pages/Error';
-import { Home } from "../pages/Home"
+import { About } from "../pages/About";
+import { Apartement } from "../pages/Apartment";
+import { Error } from "../pages/Error";
+import { Home } from "../pages/Home";
 
 export const Router = () => {
   return (

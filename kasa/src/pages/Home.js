@@ -1,6 +1,11 @@
-import { Banner } from '../components/Banner';
-import { Card } from '../components/Card';
+import { Banner } from "../components/Banner";
+import { Gallery } from "../components/Gallery";
 
 export const Home = () => {
-    return <> <Banner /> <Card /> </>;
-}
+  return (
+    <>
+      <Banner />
+      <Gallery />
+    </>
+  );
+};

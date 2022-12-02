@@ -1,10 +1,10 @@
-import styles from "../style/Card.module.css"
+import styles from "../style/Card.module.css";
 
-export const Card = () => {
+export const Card = (props) => {
   return (
     <div className={styles.cardWrapper}>
-        <img className={styles.cardImage} src="" alt="Banner Kasa" />
-        <p className={styles.cardText}>Titre de la location</p>
+      <img className={styles.cardImage} src={props.cover} alt="Banner Kasa" />
+      <p className={styles.cardText}>{props.title}</p>
     </div>
   );
 };

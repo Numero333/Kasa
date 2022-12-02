@@ -1,17 +1,26 @@
 body {
   margin: 40px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
+a {
+  text-decoration: none;
+  color: #ff6060;
+}
+
+:root {
+  --mainColor: #ff6060;
+}
 @font-face {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 500;
-  src: local('Montserrat'), url(./fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format('truetype');
+  src: local("Montserrat"),
+    url(./fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format("truetype");
 }
