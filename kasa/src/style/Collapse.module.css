@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--mainColor);
+  border-radius: 10px;
+  color: white;
+  padding-left: 20px;
+}
+
+.arrowUp {
+  border-bottom: 2px solid rgb(255, 255, 255);
+  border-right: 2px solid rgb(255, 255, 255);
+  width: 10px;
+  height: 10px;
+  rotate: -135deg;
+  margin: 20px;
+}
+
+.arrowDown {
+  border-bottom: 2px solid rgb(255, 255, 255);
+  border-right: 2px solid rgb(255, 255, 255);
+  width: 10px;
+  height: 10px;
+  margin: 20px;
+  rotate: 45deg;
+  transition: all 200ms ease;
+}
+
+.content {
+  color: var(--mainColor);
+  border-radius: 10px;
+}
