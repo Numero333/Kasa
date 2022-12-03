@@ -1,0 +1,43 @@
+.wrapper,
+.image {
+  width: 90vw;
+  height: 40vh;
+  border-radius: 25px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrowWrapper {
+  width: 83vw;
+  position: absolute;
+  text-align: center;
+}
+
+.arrowLeft {
+  border-bottom: 6px solid rgb(255, 255, 255);
+  border-left: 6px solid rgb(255, 255, 255);
+  width: 40px;
+  height: 40px;
+  rotate: 45deg;
+  float: left;
+}
+
+.arrowRight {
+  border-top: 6px solid rgb(255, 255, 255);
+  border-right: 6px solid rgb(255, 255, 255);
+  width: 40px;
+  height: 40px;
+  rotate: 45deg;
+  float: right;
+}
+
+.counter {
+  position: absolute;
+  align-self: flex-end;
+  color: white;
+  font-size: 24px;
+}

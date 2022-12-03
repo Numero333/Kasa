@@ -6,11 +6,13 @@ import { Home } from "../pages/Home";
 
 export const Router = () => {
   return (
-    <Routes>
-      <Route path="/" element={<Home />}></Route>
-      <Route path="/Apartement" element={<Apartement />}></Route>
-      <Route path="/About" element={<About />}></Route>
-      <Route path="*" element={<Error />}></Route>
-    </Routes>
+    <main>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/Apartement/:id" element={<Apartement />}></Route>
+        <Route path="/About" element={<About />}></Route>
+        <Route path="*" element={<Error />}></Route>
+      </Routes>
+    </main>
   );
 };

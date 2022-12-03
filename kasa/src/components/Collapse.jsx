@@ -11,8 +11,8 @@ export const Collapse = ({ title, content }) => {
   };
 
   return (
-    <div>
-      <div className={styles.wrapper} onClick={Toggle}>
+    <div className={styles.wrapper}>
+      <div className={styles.wrapperTitle} onClick={Toggle}>
         <div className={styles.title}>{title}</div>
         {!isActive && <div className={styles.arrowUp}></div>}
         {isActive && <div className={styles.arrowDown}></div>}

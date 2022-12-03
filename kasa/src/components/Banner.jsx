@@ -1,11 +1,11 @@
-import styles from "../style/Banner.module.css"
+import styles from "../style/Banner.module.css";
 import banner from "../assets/images/banner.webp";
 
-export const Banner = () => {
+export const Banner = (props) => {
   return (
     <div className={styles.bannerWrapper}>
-        <img className={styles.bannerImage} src={banner} alt="Banner Kasa" />
-      <p className={styles.bannerText}>Chez vous, partout et ailleurs</p>
+      <img className={styles.bannerImage} src={props.src} alt={props.alt} />
+      <p className={styles.bannerText}>{props.text}</p>
     </div>
   );
 };

@@ -15,7 +15,9 @@
 .cardText {
   position: absolute;
   justify-content: center;
-  width: 20%;
-  margin-left: 20px;
+  margin-left: 10px;
   color: white;
+  font-size: 1.7vw;
+  align-self: flex-end;
+  margin-bottom: 5px;
 }

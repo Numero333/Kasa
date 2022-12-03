@@ -1,0 +1,10 @@
+.text {
+  background-color: #ff6060;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  font-size: 1.8vw;
+  width: 14vw;
+  height: 4vw;
+  line-height: 3.9vw;
+}
