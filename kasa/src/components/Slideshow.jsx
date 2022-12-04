@@ -1,25 +1,51 @@
+import { useState } from "react";
 import styles from "../style/Slideshow.module.css";
 
 export const Slideshow = (props) => {
-  return (
-    /* <div className={styles.wrapper}>
-      <img className={styles.image} src={props.src} alt={props.alt} />
-      <div className={styles.arrowLeft}></div>
-      <div className={styles.arrowRight}></div>
-    </div>
-    */
+  var [picture, setIndex] = useState({ index: 0, counter: 1 });
 
+  const handleNext = () => {
+    if (picture.index >= props.pictures.length - 1) {
+      return setIndex({
+        index: 0,
+        counter: 1,
+      });
+    } else {
+      picture.index++;
+      picture.counter++;
+      console.log(picture);
+      return setIndex({ index: picture.index, counter: picture.counter });
+    }
+  };
+
+  const handleBack = () => {
+    if (picture.index <= 0) {
+      return setIndex({
+        index: props.pictures.length - 1,
+        counter: props.pictures.length,
+      });
+    }
+
+    picture.index--;
+    picture.counter--;
+    console.log(picture);
+    return setIndex({ index: picture.index, counter: picture.counter });
+  };
+
+  return (
     <div className={styles.wrapper}>
       <img
         className={styles.image}
-        src={props.pictures[0]}
+        src={props.pictures[picture.index]}
         alt="Photo logement"
       />
       <div className={styles.arrowWrapper}>
-        <div className={styles.arrowLeft}></div>
-        <div className={styles.arrowRight}></div>
+        <button onClick={handleBack} className={styles.arrowLeft}></button>
+        <button onClick={handleNext} className={styles.arrowRight}></button>
       </div>
-      <div className={styles.counter}>1/2</div>
+      <div className={styles.counter}>
+        {picture.counter}/{props.pictures.length}
+      </div>
     </div>
   );
 };
