@@ -1,3 +1,16 @@
 .wrapperTag {
   display: flex;
 }
+
+.wrapperCollapse {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.wrapperInfo {
+  justify-content: space-between;
+}
+
+.infoSizing {
+  width: 50%;
+}
