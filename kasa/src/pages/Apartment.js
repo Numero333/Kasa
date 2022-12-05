@@ -14,7 +14,7 @@ export const Apartement = () => {
   const apartement = data.find((data) => data.id === id);
 
   return (
-    <div>
+    <div className={styles.wrapper}>
       <Slideshow pictures={apartement.pictures} title={apartement.title} />
       <div className={styles.wrapperInfo}>
         <div className={styles.infoSizing}>
@@ -23,7 +23,7 @@ export const Apartement = () => {
         </div>
         <div className={styles.infoSizing}>
           <Profil name="Alexandre" firstName="Dumas" image={logoProfil} />
-          <Stars />
+          <Stars className={styles.flexEnd} />
         </div>
       </div>
       <div className={styles.wrapperTag}>

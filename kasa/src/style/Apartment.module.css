@@ -1,3 +1,8 @@
+.wrapper {
+  align-items: center;
+  margin-top: 2vh;
+}
+
 .wrapperTag {
   display: flex;
 }
@@ -8,9 +13,28 @@
 }
 
 .wrapperInfo {
+  display: flex;
   justify-content: space-between;
+  margin: 2vw 0;
 }
 
 .infoSizing {
   width: 50%;
+  justify-content: flex-end;
+}
+
+.flexEnd {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.title {
+  color: var(--mainColor);
+  font-size: 2.8vw;
+}
+
+.location {
+  color: var(--mainColor);
+  font-size: 1.4vw;
+  margin-top: 1vw;
 }
