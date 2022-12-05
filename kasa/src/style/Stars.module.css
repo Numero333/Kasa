@@ -1,3 +1,8 @@
 .starGray {
   filter: opacity(0.35) saturate(0);
 }
+
+.wrapper {
+  display: flex;
+  justify-content: flex-end;
+}

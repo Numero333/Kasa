@@ -1,10 +1,11 @@
 import { Banner } from "../components/Banner";
 import { Collapse } from "../components/Collapse";
 import banner from "../assets/images/about.webp";
+import styles from "../style/About.module.css";
 
 export const About = () => {
   return (
-    <div>
+    <div className={styles.wrapper}>
       <Banner src={banner} alt="Kasa about banner" text="" />
       <Collapse
         title="Fiabilité"

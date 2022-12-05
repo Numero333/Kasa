@@ -3,7 +3,7 @@ import star from "../assets/images/star.svg";
 
 export const Stars = (props) => {
   return (
-    <div className="">
+    <div className={styles.wrapper}>
       <img className={styles.star} src={star} alt="Etoile" />
       <img className={styles.star} src={star} alt="Etoile" />
       <img className={styles.star} src={star} alt="Etoile" />
