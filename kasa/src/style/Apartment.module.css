@@ -10,6 +10,7 @@
 .wrapperCollapse {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 80px;
 }
 
 .wrapperInfo {
@@ -37,4 +38,11 @@
   color: var(--mainColor);
   font-size: 1.4vw;
   margin-top: 1vw;
+}
+
+.line {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
 }

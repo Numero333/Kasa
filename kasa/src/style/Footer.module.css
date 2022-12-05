@@ -5,14 +5,14 @@
 }
 
 .footer {
-  position: absolute;
   background-color: black;
   text-align: center;
-  width: 100%;
-  margin-left: -40px;
-  margin-top: 2vw;
+  margin-left: -100px;
+  margin-right: -100px;
+  margin-top: auto;
 }
 
 .license {
   color: white;
+  padding-bottom: 40px;
 }

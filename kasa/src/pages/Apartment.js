@@ -33,7 +33,17 @@ export const Apartement = () => {
       </div>
       <div className={styles.wrapperCollapse}>
         <Collapse title="Description" content={apartement.description} />
-        <Collapse title="Equipement" content={apartement.equipments} />
+        <Collapse
+          className={styles.line}
+          title="Equipement"
+          content={
+            <ul className={styles.line}>
+              {apartement.equipments.map((equi, index) => (
+                <li key={index}>{equi}</li>
+              ))}
+            </ul>
+          }
+        />
       </div>
     </div>
   );

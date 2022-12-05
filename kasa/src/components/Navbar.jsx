@@ -9,13 +9,13 @@ export const Header = () => {
         <img className={styles.logo} src={logo} alt="Logo Kasa"></img>
       </Link>
       <nav style={styles.nav}>
-        <ul>
-          <li>
+        <ul className={styles.ul}>
+          <li className={styles.li}>
             <Link className={styles.home} to="/">
               Acceuil
             </Link>
           </li>
-          <li>
+          <li className={styles.li}>
             <Link className={styles.about} to="/about">
               A propos
             </Link>

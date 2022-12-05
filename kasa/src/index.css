@@ -1,8 +1,14 @@
 body {
-  margin: 40px;
+  margin: 40px 100px 0 100px;
   font-family: "Montserrat";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 code {
@@ -18,9 +24,10 @@ a {
 :root {
   --mainColor: #ff6060;
 }
+
 @font-face {
   font-family: "Montserrat";
-  font-weight: 500;
+  font-weight: 500, 400;
   src: local("Montserrat"),
     url(./fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format("truetype");
 }
