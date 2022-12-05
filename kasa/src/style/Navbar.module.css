@@ -10,7 +10,7 @@ ul {
 
 li {
   align-items: center;
-  margin-left: 50px;
+  margin-left: 80px;
   list-style-type: none;
 }
 
@@ -18,18 +18,18 @@ li {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1.8vw;
 }
 
 .home {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1.8vw;
 }
 
 .logo {
-  width: 120px;
+  width: 15vw;
 }
 
 .about:hover,

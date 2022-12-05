@@ -5,9 +5,9 @@ import logo from "../assets/images/logo.svg";
 export const Header = () => {
   return (
     <header className={styles.wrapper}>
-      <a href="/">
+      <Link to="/">
         <img className={styles.logo} src={logo} alt="Logo Kasa"></img>
-      </a>
+      </Link>
       <nav style={styles.nav}>
         <ul>
           <li>
@@ -17,7 +17,7 @@ export const Header = () => {
           </li>
           <li>
             <Link className={styles.about} to="/about">
-              About
+              A propos
             </Link>
           </li>
         </ul>
