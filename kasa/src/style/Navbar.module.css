@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 .ul {
@@ -17,14 +18,14 @@
 .about {
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.8vw;
 }
 
 .home {
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.8vw;
 }
 
@@ -35,4 +36,17 @@
 .about:hover,
 .home:hover {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .li {
+    margin-left: 20px;
+    text-transform: uppercase;
+  }
+  .wrapper {
+    margin-top: unset;
+  }
+  .logo {
+    width: 40vw;
+  }
 }

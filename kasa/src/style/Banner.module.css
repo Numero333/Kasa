@@ -20,3 +20,24 @@
   font-size: 3.4vw;
   font-weight: 400;
 }
+
+@media screen and (max-width: 768px) {
+  .bannerWrapper {
+    margin-top: unset;
+  }
+  .bannerImage {
+    border-radius: 10px;
+    height: 20vw;
+  }
+  .bannerText {
+    font-size: 0;
+  }
+  .bannerText::before {
+    content: "Chez vous, \A partout et ailleurs";
+    white-space: pre;
+    font-size: 4.5vw;
+    align-items: flex-start;
+    margin-right: 45vw;
+    font-weight: 600;
+  }
+}

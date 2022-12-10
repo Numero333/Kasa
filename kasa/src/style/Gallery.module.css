@@ -1,15 +1,21 @@
 .gallery {
   background-color: #f6f6f6;
-  padding: 4vw;
   border-radius: 25px;
   margin-top: 5vh;
-
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-auto-columns: 1fr;
-  gap: 3vw 3vw;
+  padding: 4vw;
+  display: inline-grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4vw 4vw;
   grid-auto-flow: row;
-
   margin-bottom: 6vh;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery {
+    background-color: unset;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vw;
+    padding: unset;
+  }
 }

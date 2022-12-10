@@ -1,3 +1,0 @@
-/* Mettre route a jour appartement
-
-*/
