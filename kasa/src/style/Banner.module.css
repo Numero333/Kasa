@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 768px) {
   .bannerWrapper {
-    margin-top: unset;
+    margin-top: 3vw;
   }
   .bannerImage {
     border-radius: 10px;
