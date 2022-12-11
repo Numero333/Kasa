@@ -9,7 +9,7 @@
   color: white;
   padding-left: 20px;
   margin-top: 3vh;
-  font-size: 1.2vw;
+  font-size: var(--lightFont);
   font-weight: 400;
 }
 
@@ -39,7 +39,7 @@
   margin-top: -10px;
   z-index: 2;
   padding: 30px 25px;
-  font-size: 1.2vw;
+  font-size: var(--lightFont);
   line-height: 35px;
 }
 

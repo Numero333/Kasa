@@ -14,30 +14,30 @@
 }
 
 .arrowWrapper {
-  width: 85%;
+  width: 83%;
   position: absolute;
   text-align: center;
 }
 
 .arrowLeft {
-  border-bottom: 12px solid rgb(255, 255, 255);
-  border-left: 12px solid rgb(255, 255, 255);
+  border-bottom: 0.85vw solid rgb(255, 255, 255);
+  border-left: 0.85vw solid rgb(255, 255, 255);
   border-top: transparent;
   border-right: transparent;
-  width: 60px;
-  height: 60px;
+  width: 5vw;
+  height: 5vw;
   rotate: 45deg;
   float: left;
   background-color: transparent;
 }
 
 .arrowRight {
-  border-top: 12px solid rgb(255, 255, 255);
-  border-right: 12px solid rgb(255, 255, 255);
+  border-top: 0.85vw solid rgb(255, 255, 255);
+  border-right: 0.85vw solid rgb(255, 255, 255);
   border-bottom: transparent;
   border-left: transparent;
-  width: 60px;
-  height: 60px;
+  width: 5vw;
+  height: 5vw;
   rotate: 45deg;
   float: right;
   background-color: transparent;

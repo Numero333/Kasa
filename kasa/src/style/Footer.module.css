@@ -1,15 +1,13 @@
-.logo {
-  filter: brightness(100);
-  width: 80px;
-  margin-top: 20px;
-}
-
 .footer {
   background-color: black;
   text-align: center;
-  margin-left: -100px;
-  margin-right: -100px;
-  margin-top: auto;
+  margin: auto -6vw;
+}
+
+.logo {
+  filter: brightness(100);
+  width: 140px;
+  margin-top: 20px;
 }
 
 .license {

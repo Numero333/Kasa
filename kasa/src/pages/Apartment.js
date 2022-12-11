@@ -20,16 +20,16 @@ export const Apartement = () => {
         <div className={styles.infoSizing}>
           <div className={styles.title}>{apartement.title}</div>
           <div className={styles.location}>{apartement.location}</div>
+          <div className={styles.wrapperTag}>
+            {apartement.tags.map((tag, index) => (
+              <Tag key={index} title={tag} />
+            ))}
+          </div>
         </div>
         <div className={styles.infoSizing}>
           <Profil name="Alexandre" firstName="Dumas" image={logoProfil} />
           <Stars className={styles.flexEnd} />
         </div>
-      </div>
-      <div className={styles.wrapperTag}>
-        {apartement.tags.map((tag, index) => (
-          <Tag key={index} title={tag} />
-        ))}
       </div>
       <div className={styles.wrapperCollapse}>
         <Collapse title="Description" content={apartement.description} />
