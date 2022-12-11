@@ -17,7 +17,7 @@ export const Apartement = () => {
     <div className={styles.wrapper}>
       <Slideshow pictures={apartement.pictures} title={apartement.title} />
       <div className={styles.wrapperInfo}>
-        <div className={styles.infoSizing}>
+        <div className={styles.infoAppart}>
           <div className={styles.title}>{apartement.title}</div>
           <div className={styles.location}>{apartement.location}</div>
           <div className={styles.wrapperTag}>
@@ -26,9 +26,9 @@ export const Apartement = () => {
             ))}
           </div>
         </div>
-        <div className={styles.infoSizing}>
+        <div className={styles.infoProfil}>
           <Profil name="Alexandre" firstName="Dumas" image={logoProfil} />
-          <Stars className={styles.flexEnd} />
+          <Stars className={styles.stars} />
         </div>
       </div>
       <div className={styles.wrapperCollapse}>

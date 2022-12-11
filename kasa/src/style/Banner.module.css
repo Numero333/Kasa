@@ -23,11 +23,11 @@
 
 @media screen and (max-width: 768px) {
   .bannerWrapper {
-    margin-top: 3vw;
+    margin-top: 1vw;
   }
   .bannerImage {
     border-radius: 10px;
-    height: 20vw;
+    height: 25vw;
   }
   .bannerText {
     font-size: 0;
@@ -35,9 +35,10 @@
   .bannerText::before {
     content: "Chez vous, \A partout et ailleurs";
     white-space: pre;
-    font-size: 4.5vw;
+    font-size: 6vw;
     align-items: flex-start;
-    margin-right: 45vw;
+    margin-right: 28vw;
     font-weight: 600;
+    line-height: 6vw;
   }
 }
