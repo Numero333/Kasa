@@ -6,17 +6,33 @@
 }
 
 .title {
-  font-size: 180px;
+  font-size: 20vw;
   color: #ff6060;
-  margin-bottom: 2vh;
+  margin-bottom: 2vw;
+  margin-top: 2vw;
 }
 
 .text {
-  font-size: 24px;
+  font-size: var(--largeFont);
   color: #ff6060;
+  margin: 0;
 }
 
 .link {
   text-decoration: underline;
-  padding-top: 20vh;
+  padding-top: 10vw;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .title {
+    font-size: 30vw;
+    font-weight: 700;
+  }
+  .link {
+    font-size: var(--subLightFontMobile);
+  }
 }

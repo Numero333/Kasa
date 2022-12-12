@@ -39,7 +39,8 @@ a {
   font-family: "Montserrat";
   font-weight: 600, 500, 400;
   src: local("Montserrat"),
-    url(./fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format("truetype");
+    url(./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf)
+      format("truetype");
 }
 
 @media screen and (max-width: 768px) {
