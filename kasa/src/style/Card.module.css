@@ -36,5 +36,6 @@
   }
   .cardText {
     width: 60vw;
+    font-size: var(--largeFontMobile);
   }
 }

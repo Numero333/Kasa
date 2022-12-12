@@ -19,3 +19,13 @@
   width: 5vw;
   background-color: black;
 }
+
+@media screen and (max-width: 768px) {
+  .wrapperName {
+    font-size: 3.2vw;
+  }
+  .image {
+    height: 9vw;
+    width: 9vw;
+  }
+}

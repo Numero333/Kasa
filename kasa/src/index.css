@@ -27,6 +27,12 @@ a {
   --mediumFont: 1.8vw;
   --lightFont: 1.4vw;
   --thinFont: 2vw;
+
+  --largeFontMobile: 4.8vw;
+  --mediumFontMobile: 3.7vw;
+  --navFontMobile: 3.2vw;
+  --lightFontMobile: 3.2vw;
+  --subLightFontMobile: 3.4vw;
 }
 
 @font-face {
@@ -38,16 +44,7 @@ a {
 
 @media screen and (max-width: 768px) {
   body {
-    display: flex;
     margin: 4vw 4vw 0 4vw;
     align-items: center;
-  }
-
-  :root {
-    --mainColor: #ff6060;
-    --largeFont: 4.5vw;
-    --mediumFont: 3vw;
-    --lightFont: 4.5vw;
-    --thinFont: 2vw;
   }
 }

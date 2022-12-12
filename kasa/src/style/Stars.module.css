@@ -11,3 +11,12 @@
 .wrapper img {
   width: 2.2vw;
 }
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    gap: 1vw;
+  }
+  .wrapper img {
+    width: 3.6vw;
+  }
+}

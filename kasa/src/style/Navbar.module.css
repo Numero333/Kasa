@@ -49,4 +49,8 @@
   .logo {
     width: 37vw;
   }
+  .home,
+  .about {
+    font-size: var(--navFontMobile);
+  }
 }

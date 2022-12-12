@@ -11,7 +11,7 @@
 .wrapperCollapse {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 80px;
+  gap: 4vw;
   margin-bottom: 6vh;
 }
 
@@ -61,7 +61,13 @@
 }
 
 @media screen and (max-width: 768px) {
+  .wrapper {
+    padding-bottom: 6vw;
+  }
   .wrapperInfo {
+    display: unset;
+  }
+  .wrapperCollapse {
     display: unset;
   }
   .infoAppart {
@@ -70,5 +76,11 @@
   .infoProfil {
     width: unset;
     flex-direction: row-reverse;
+  }
+  .title {
+    font-size: var(--largeFontMobile);
+  }
+  .location {
+    font-size: var(--mediumFontMobile);
   }
 }
