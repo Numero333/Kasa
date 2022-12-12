@@ -1,3 +1,9 @@
+/* ----------------------------------------------------------------
+This component is responsible of displaying the slideshow component
+<Slideshow /> 
+
+----------------------------------------------- */
+
 import { useState } from "react";
 import styles from "../style/Slideshow.module.css";
 

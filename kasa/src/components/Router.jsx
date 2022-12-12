@@ -1,3 +1,8 @@
+/* ----------------------------------------------------------------
+This component is the router of the application,
+<Rooter /> have 4 routes and handle every path inexisting
+----------------------------------------------- */
+
 import { Routes, Route } from "react-router-dom";
 import { About } from "../pages/About";
 import { Apartement } from "../pages/Apartment";

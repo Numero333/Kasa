@@ -1,3 +1,11 @@
+/* ----------------------------------------------------------------
+This component is responsible of the structure of the card displayed in first page, 
+<Card /> takes 3 props :
+- id of appartment
+- cover image for the card
+- title of the card
+----------------------------------------------- */
+
 import styles from "../style/Card.module.css";
 import { Link } from "react-router-dom";
 

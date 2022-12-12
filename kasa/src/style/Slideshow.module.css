@@ -54,7 +54,7 @@
 @media screen and (max-width: 768px) {
   .wrapper,
   .image {
-    height: unset;
+    height: 80vw;
     border-radius: 10px;
   }
   .counter {

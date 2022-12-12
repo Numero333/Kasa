@@ -1,3 +1,11 @@
+/* ----------------------------------------------------------------
+This component is responsible of the banner, 
+<Banner /> takes 3 props :
+- Src
+- Alt
+- Optional Text
+----------------------------------------------- */
+
 import styles from "../style/Banner.module.css";
 
 export const Banner = (props) => {
@@ -8,11 +16,3 @@ export const Banner = (props) => {
     </div>
   );
 };
-
-/* ----------------------------------------------------------------
-This component is responsible of the banner, 
-<Banner /> takes 3 props :
-- Src
-- Alt
-- Optional Text
------------------------------------------------ */

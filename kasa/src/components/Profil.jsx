@@ -1,3 +1,11 @@
+/* ----------------------------------------------------------------
+This component is responsible of displaying user Profil
+<Profil /> takes 3 props :
+- first name
+- name
+- profil picture
+----------------------------------------------- */
+
 import styles from "../style/Profil.module.css";
 
 export const Profil = (props) => {

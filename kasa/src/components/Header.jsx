@@ -1,3 +1,8 @@
+/* ----------------------------------------------------------------
+This component is responsible of Header, 
+<Header /> contains the navigation tab 
+----------------------------------------------- */
+
 import { Link } from "react-router-dom";
 import styles from "../style/Navbar.module.css";
 import logo from "../assets/images/logo.svg";
