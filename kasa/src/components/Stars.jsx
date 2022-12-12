@@ -7,8 +7,8 @@ export const Stars = (props) => {
       <img className={styles.star} src={star} alt="Etoile" />
       <img className={styles.star} src={star} alt="Etoile" />
       <img className={styles.star} src={star} alt="Etoile" />
-      <img className={styles.star} src={star} alt="Etoile" />
-      <img className={styles.star} src={star} alt="Etoile" />
+      <img className={styles.starGray} src={star} alt="Etoile" />
+      <img className={styles.starGray} src={star} alt="Etoile" />
     </div>
   );
 };

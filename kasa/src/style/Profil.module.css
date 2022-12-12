@@ -23,6 +23,7 @@
 @media screen and (max-width: 768px) {
   .wrapperName {
     font-size: 3.2vw;
+    margin-right: 8px;
   }
   .image {
     height: 9vw;

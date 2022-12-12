@@ -62,7 +62,7 @@
 
 @media screen and (max-width: 768px) {
   .wrapper {
-    padding-bottom: 6vw;
+    padding-bottom: 6jvw;
   }
   .wrapperInfo {
     display: unset;
@@ -70,17 +70,23 @@
   .wrapperCollapse {
     display: unset;
   }
+  .wrapperTag {
+    gap: 2.5vw;
+  }
   .infoAppart {
+    margin-top: 4vw;
     width: unset;
   }
   .infoProfil {
     width: unset;
     flex-direction: row-reverse;
+    margin: 3vw 0;
   }
   .title {
     font-size: var(--largeFontMobile);
   }
   .location {
+    margin: 2vw 0;
     font-size: var(--mediumFontMobile);
   }
 }

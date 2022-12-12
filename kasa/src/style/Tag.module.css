@@ -3,18 +3,17 @@
   border-radius: 10px;
   text-align: center;
   color: white;
-  font-size: 0.9vw;
+  font-size: 1.2vw;
   line-height: 1.7vw;
-  font-weight: 600;
+  font-weight: 500;
   height: 1.7vw;
-  padding: 0 2.4vw;
+  padding: 2px 2.4vw;
 }
 
 @media screen and (max-width: 768px) {
   .text {
     font-size: 2.3vw;
     padding: 1.4vw 5.5vw;
-    font-weight: 500;
-    border-radius: 5px;
+    border-radius: 7px;
   }
 }
