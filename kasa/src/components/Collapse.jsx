@@ -18,10 +18,8 @@ import styles from "../style/Collapse.module.css";
 export const Collapse = ({ title, content }) => {
   const [isActive, setActive] = useState(false);
 
-  const Toggle = (event) => {
-    console.log(isActive);
+  const Toggle = () => {
     setActive(!isActive);
-    console.log(isActive);
   };
 
   return (
