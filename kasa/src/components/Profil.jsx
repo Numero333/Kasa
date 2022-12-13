@@ -16,7 +16,7 @@ export const Profil = (props) => {
         <span className={styles.firstName}>{props.firstName}</span>
       </div>
 
-      <img className={styles.image} src={props.image} alt="Profil photo" />
+      <img className={styles.image} src={props.image} alt="User profil" />
     </div>
   );
 };

@@ -1,12 +1,12 @@
-import { Collapse } from "../components/Collapse";
-import { Tag } from "../components/Tag";
-import { Slideshow } from "../components/Slideshow";
 import data from "../assets/logements.json";
-import { useParams } from "react-router-dom";
+import { Navigate, useParams } from "react-router-dom";
 import styles from "../style/Apartment.module.css";
+import { Slideshow } from "../components/Slideshow";
+import { Collapse } from "../components/Collapse";
 import { Profil } from "../components/Profil";
-import logoProfil from "../assets/images/logo.svg";
 import { Stars } from "../components/Stars";
+import { Tag } from "../components/Tag";
+import logoProfil from "../assets/images/logo.svg";
 
 /* Appartment get 'ID' in the url using 'useParams',
    then use 'find' to get the right appartment object from
@@ -21,7 +21,9 @@ export const Apartement = () => {
 
   const apartement = data.find((data) => data.id === id);
 
-  return (
+  return !apartement ? (
+    <Navigate to="/error" />
+  ) : (
     <div className={styles.wrapper}>
       <Slideshow pictures={apartement.pictures} title={apartement.title} />
       <div className={styles.wrapperInfo}>

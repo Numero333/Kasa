@@ -30,6 +30,7 @@ export const Collapse = ({ title, content }) => {
         {isActive && <div className={styles.arrowDown}></div>}
       </div>
       {isActive && <div className={styles.content}>{content}</div>}
+      <div></div>
     </div>
   );
 };
