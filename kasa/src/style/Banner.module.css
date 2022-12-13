@@ -1,4 +1,4 @@
-.bannerWrapper {
+.wrapper {
   position: relative;
   align-items: center;
   justify-content: center;
@@ -6,7 +6,7 @@
   margin-top: 4vw;
 }
 
-.bannerImage {
+.image {
   object-fit: cover;
   border-radius: 25px;
   width: 100%;
@@ -14,7 +14,7 @@
   filter: brightness(75%);
 }
 
-.bannerText {
+.text {
   position: absolute;
   color: white;
   font-size: 3.4vw;
@@ -22,17 +22,17 @@
 }
 
 @media screen and (max-width: 768px) {
-  .bannerWrapper {
+  .wrapper {
     margin-top: 1vw;
   }
-  .bannerImage {
+  .image {
     border-radius: 10px;
     height: 25vw;
   }
-  .bannerText {
+  .text {
     font-size: 0;
   }
-  .bannerText::before {
+  .text::before {
     content: "Chez vous, \A partout et ailleurs";
     white-space: pre;
     font-size: 6vw;

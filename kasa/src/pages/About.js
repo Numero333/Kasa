@@ -6,7 +6,7 @@ import styles from "../style/About.module.css";
 export const About = () => {
   return (
     <div className={styles.wrapper}>
-      <Banner src={banner} alt="Kasa about banner" text="" />
+      <Banner src={banner} alt="Kasa a propos banner" text="" />
       <Collapse
         title="Fiabilité"
         content="Les annonces postées sur Kasa garantissent 

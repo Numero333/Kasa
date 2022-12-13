@@ -10,9 +10,9 @@ import styles from "../style/Banner.module.css";
 
 export const Banner = (props) => {
   return (
-    <div className={styles.bannerWrapper}>
-      <img className={styles.bannerImage} src={props.src} alt={props.alt} />
-      {props.text ? <p className={styles.bannerText}>{props.text}</p> : null}
+    <div className={styles.wrapper}>
+      <img className={styles.image} src={props.src} alt={props.alt} />
+      {props.text ? <p className={styles.text}>{props.text}</p> : null}
     </div>
   );
 };

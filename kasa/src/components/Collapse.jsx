@@ -4,14 +4,12 @@ This component is responsible of all Collapsable components,
 - Title
 - Content
 
-<Collapse /> have 2 states :
-1 is inactive and dont show the content
-1 is active and show the content
- >> default is inactive
+<Collapse /> have 1 states :
+- true/false for showing content or not
+ >> default is false, content is hidden
 
 <Collapse /> use a logical 'NOT' line 32
 to show or not content and which arrow to display up or down
-
 ----------------------------------------------- */
 
 import { useState } from "react";

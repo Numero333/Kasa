@@ -33,6 +33,10 @@
   margin-top: -5px;
 }
 
+.title {
+  z-index: 1;
+}
+
 .content {
   color: var(--mainColor);
   border-bottom-left-radius: 10px;
@@ -44,22 +48,17 @@
   font-size: var(--lightFont);
   line-height: 2.6vw;
 }
-
-.title {
-  z-index: 1;
-}
 .content ul {
   padding-inline-start: 0;
 }
+
 @media screen and (max-width: 768px) {
   .wrapperTitle {
     border-radius: 8px;
   }
-
   .title {
     font-size: var(--subLightFontMobile);
   }
-
   .content {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;

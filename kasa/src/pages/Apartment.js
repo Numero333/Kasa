@@ -8,6 +8,14 @@ import { Profil } from "../components/Profil";
 import logoProfil from "../assets/images/logo.svg";
 import { Stars } from "../components/Stars";
 
+/* Appartment get 'ID' in the url using 'useParams',
+   then use 'find' to get the right appartment object from
+   logement.json file
+
+  'map' method is used to iterate over all tags/equipement in the
+  appartment object using index as key
+ */
+
 export const Apartement = () => {
   const { id } = useParams();
 
@@ -38,8 +46,8 @@ export const Apartement = () => {
           title="Equipement"
           content={
             <ul className={styles.line}>
-              {apartement.equipments.map((equi, index) => (
-                <li key={index}>{equi}</li>
+              {apartement.equipments.map((equipement, index) => (
+                <li key={index}>{equipement}</li>
               ))}
             </ul>
           }
