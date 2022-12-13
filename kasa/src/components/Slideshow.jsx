@@ -31,7 +31,6 @@ export const Slideshow = (props) => {
     } else {
       picture.index++;
       picture.counter++;
-      console.log(picture);
       return setIndex({ index: picture.index, counter: picture.counter });
     }
   };
