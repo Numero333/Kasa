@@ -26,15 +26,15 @@
   font-size: var(--mediumFont);
 }
 
-.home:active {
-  text-decoration: underline;
-}
-
 .about {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: var(--mediumFont);
+}
+
+.active {
+  text-decoration: underline;
 }
 
 .about:focus,
