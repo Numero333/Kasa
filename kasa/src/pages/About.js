@@ -36,3 +36,7 @@ export const About = () => {
     </div>
   );
 };
+
+/* gatheck007@gmail.com
+
+ACTIVE + GITHUB */
