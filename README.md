@@ -14,7 +14,7 @@ This project is initilized using Create React App
 `https://create-react-app.dev/docs/getting-started`
 
 You can find the project model here :
-`https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/UI-Design-Kasa-FR?t=ElBH1XAaqWLNkssT-0`
+[Figma model](https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/UI-Design-Kasa-FR?t=ElBH1XAaqWLNkssT-0)
 
 To get started with Kasa, you need to run the following command
 `npm install`
